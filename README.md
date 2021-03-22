@@ -3,9 +3,48 @@ Lightweight High performance and easy to use 2D Game engine
 
 
 ---
-**Download binary**
+## Download binary
 
 [Here](https://github.com/peacedeveloper1/PeaceEngine2/releases/tag/2.01b)
+
+---
+## Syntax
+
+```lua
+print("Hi PeaceEngine!")
+
+function peUpdate()
+end 
+
+function peRender()
+  peDraw()
+  peDraw(0,0,16*3,32,16,16)
+  for i=0, 3 do
+    peDraw(16*i,0,16,32,64+i*16,64+i*32)
+  end 
+  peDraw(16,0,16,32,200,150)
+end 
+
+
+myPalette = {143, 15, 119, 132, 126, 135, 255, 255, 255, 34, 32, 52, 224, 208, 208, 179, 160, 160, 52, 52, 52, 0, 0, 0, 69, 40, 60, 215, 123,
+ 186, 217, 87, 99, 238, 195, 154, 148, 93, 98}
+setPaletteColors(0,myPalette)
+
+myTiles = {
+0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,
+0 ,6 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,6 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,3 ,0 ,0 ,5 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,5 ,0 ,
+...
+}
+addTile(myTiles,48,32);
+
+```
+
+Find full example source code at \/example folder
+
+### How to use?
+
+Open "PeaceEngine2.pen" with text editor and modify the script from there.
+
 
 
 ---
