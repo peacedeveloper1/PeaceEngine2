@@ -1,5 +1,5 @@
 # PeaceEngine2
-Lightweight High performance and easy to use 2D Game engine
+Lightweight high performance and easy to use 2D game engine
 
 
 ---
@@ -55,6 +55,13 @@ function addTile(tileData,width,height)
 end 
 
 ```
+
+
+## Class
+```lua
+Sprite = {surfaceIndex = 0,tileX = 0, tileY = 0, tileWidth = 16, tileHeight = 16, x = 0, y = 0, width = 16, height = 16,angle = 0,centerX = 0,centerY = 0,flipX = false,flipY = false}
+```
+
 
 ### Enum
 ```lua 
