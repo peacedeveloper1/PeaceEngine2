@@ -1,4 +1,4 @@
-print("Hi PeaceEngine!")
+print("Hi PeaceEngine2!")
 
 function peUpdate()
 end 
@@ -10,7 +10,7 @@ end
 
 
 myPalette = {143, 15, 119, 132, 126, 135, 255, 255, 255, 34, 32, 52, 224, 208, 208, 179, 160, 160, 52, 52, 52, 0, 0, 0, 69, 40, 60, 215, 123, 186, 217, 87, 99, 238, 195, 154, 148, 93, 98}
-setPaletteColors(0,myPalette)
+setPaletteColors(myPalette)
 
 myTiles = {
 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,

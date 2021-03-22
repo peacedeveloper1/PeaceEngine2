@@ -24,7 +24,7 @@ end
 
 myPalette = {143, 15, 119, 132, 126, 135, 255, 255, 255, 34, 32, 52, 224, 208, 208, 179, 160, 160, 52, 52, 52, 0, 0, 0, 69, 40, 60, 215, 123,
  186, 217, 87, 99, 238, 195, 154, 148, 93, 98}
-setPaletteColors(0,myPalette)
+setPaletteColors(myPalette)
 
 myTiles = {
 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,
@@ -41,6 +41,20 @@ Find full example source code at \/example folder
 
 Open "PeaceEngine2.pen" with text editor and modify the script from there.
 
+
+### Important Script API
+```lua 
+
+function setPaletteColors(paletteColors,paletteIndex,surfaceType)
+end 
+
+function peDraw(srcX,srcY,srcWidth,srcHeight,dstX,dstY,dstWidth,dstHeight,spriteIndex,angle,centerX,centerY,flipX,flipY,surfaceType)
+end 
+
+function addTile(tileData,width,height)
+end 
+
+```
 
 
 ---
