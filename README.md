@@ -46,13 +46,8 @@ Open "PeaceEngine2.pen" with text editor and modify the script from there.
 ```lua 
 
 setPaletteColors(paletteColors,paletteIndex,surfaceType)
-end 
-
-function peDraw(srcX,srcY,srcWidth,srcHeight,dstX,dstY,dstWidth,dstHeight,spriteIndex,angle,centerX,centerY,flipX,flipY,surfaceType)
-end 
-
-function addTile(tileData,width,height)
-end 
+peDraw(srcX,srcY,srcWidth,srcHeight,dstX,dstY,dstWidth,dstHeight,spriteIndex,angle,centerX,centerY,flipX,flipY,surfaceType)
+addTile(tileData,width,height)
 
 ```
 
