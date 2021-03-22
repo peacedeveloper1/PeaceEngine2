@@ -45,7 +45,7 @@ Open "PeaceEngine2.pen" with text editor and modify the script from there.
 ### Important Script API
 ```lua 
 
-function setPaletteColors(paletteColors,paletteIndex,surfaceType)
+setPaletteColors(paletteColors,paletteIndex,surfaceType)
 end 
 
 function peDraw(srcX,srcY,srcWidth,srcHeight,dstX,dstY,dstWidth,dstHeight,spriteIndex,angle,centerX,centerY,flipX,flipY,surfaceType)
@@ -54,6 +54,12 @@ end
 function addTile(tileData,width,height)
 end 
 
+```
+
+### Enum
+```lua 
+PE_SurfaceType["PE_SPRITE"] = 0
+PE_SurfaceType["PE_BACKGROUND"] = 1
 ```
 
 
