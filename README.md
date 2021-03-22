@@ -18,10 +18,6 @@ end
 
 function peRender()
   peDraw()
-  peDraw(0,0,16*3,32,16,16)
-  for i=0, 3 do
-    peDraw(16*i,0,16,32,64+i*16,64+i*32)
-  end 
   peDraw(16,0,16,32,200,150)
 end 
 
