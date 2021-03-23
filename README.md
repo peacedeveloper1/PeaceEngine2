@@ -47,7 +47,7 @@ Open "PeaceEngine2.pen" with text editor and modify the script from there.
 
 setPaletteColors(paletteColors,paletteIndex,surfaceType)
 peDraw(srcX,srcY,srcWidth,srcHeight,dstX,dstY,dstWidth,dstHeight,spriteIndex,angle,centerX,centerY,flipX,flipY,surfaceType)
-addTile(tileData,width,height)
+textureIndex addTile(tileData,width,height)
 
 ```
 

@@ -11,7 +11,7 @@ end
 
 function peUpdate()
   for i = 1, numOfBunnies do
-    bunnies[i].y = math.floor( math.sin((frameCounter+bunnies[i].id*4)*0.2)*60) + 96
+    bunnies[i].y = math.floor( math.sin((frameCounter+bunnies[i].id*2)*0.2)*60) + 96
   end 
   frameCounter = frameCounter+1
 end 
@@ -24,7 +24,8 @@ end
 
 
 
-myPalette = {143, 15, 119, 132, 126, 135, 255, 255, 255, 34, 32, 52, 224, 208, 208, 179, 160, 160, 52, 52, 52, 0, 0, 0, 69, 40, 60, 215, 123, 186, 217, 87, 99, 238, 195, 154, 148, 93, 98}
+myPalette = {143, 15, 119, 132, 126, 135, 255, 255, 255, 34, 32, 52, 224, 208, 208, 179, 160, 160, 52, 52, 52, 0, 0, 0, 69, 40, 60, 215, 123,
+ 186, 217, 87, 99, 238, 195, 154, 148, 93, 98}
 setPaletteColors(myPalette)
 
 myTiles = {
