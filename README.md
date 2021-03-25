@@ -5,7 +5,7 @@ Lightweight high performance and easy to use 2D game engine
 ---
 ## Download binary
 
-[Here](https://github.com/peacedeveloper1/PeaceEngine2/releases/tag/2.01b)
+[Here](https://github.com/peacedeveloper1/PeaceEngine2/releases)
 
 ---
 ## Syntax
