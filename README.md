@@ -71,12 +71,14 @@ Core performance test with bunnymark (Click to view)
 [![IMAGE ALT TEXT](https://cdn.discordapp.com/attachments/577971781252546561/822748728824823828/unknown.png)](http://www.youtube.com/watch?v=NCBJsfpKvFM "PeaceEngine2")
 
 ---
+
+#### Screen shorts
+
+![PeaceEngine2 Bunnies DNA](https://cdn.discordapp.com/attachments/823311342441857115/824496643520331776/PeaceEngine2-anim-dna2x.gif)
+
+
 Running on RaspberryPI
 
 ![PeaceEngine2 on RaspberryPI](https://cdn.discordapp.com/attachments/823311342441857115/824506557286055936/unknown.png)
 
-
-Screen short
-
-![PeaceEngine2 Bunnies DNA](https://cdn.discordapp.com/attachments/823311342441857115/824496643520331776/PeaceEngine2-anim-dna2x.gif)
 
