@@ -82,3 +82,11 @@ Running on RaspberryPI
 ![PeaceEngine2 on RaspberryPI](https://cdn.discordapp.com/attachments/823311342441857115/824506557286055936/unknown.png)
 
 
+---
+
+## License 
+
+Images / Graphics containing in all examples/tutorials or containing in PeaceEngine2 are licensed and only allow to use within PeaceEngine2. 
+
+
+
