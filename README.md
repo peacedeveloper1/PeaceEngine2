@@ -1,6 +1,6 @@
 # PeaceEngine2
-Lightweight high performance and easy to use 2D game engine
-
+Cross-platform lightweight high performance and easy to use 2D game engine.
+Current support Windows and RaspberryPI. Aiming to release on more platform soon.
 
 ---
 ## Download binary
