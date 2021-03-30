@@ -59,12 +59,6 @@ Animation = {sprites={},frames={},currentFrame = 0, spriteIndex=1,x = 0, y = 0,i
 ```
 
 
-### Enum
-```lua 
-PE_SurfaceType["PE_SPRITE"] = 0
-PE_SurfaceType["PE_BACKGROUND"] = 1
-```
-
 [More ... (Go to the API page)](https://github.com/peacedeveloper1/PeaceEngine2/blob/main/API.md)  
 
 ---
