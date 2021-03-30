@@ -18,7 +18,7 @@ textureIndex addTile(tileData,width,height)
 ### Classes
 ```lua
 Sprite = {surfaceIndex = 0,tileX = 0, tileY = 0, tileWidth = 16, tileHeight = 16, x = 0, y = 0, width = 16, height = 16,angle = 0,centerX = 0,centerY = 0,flipX = false,flipY = false}
-Animation = {sprites={},frames={},currentFrame = 0, spriteIndex=1,x = 0, y = 0,isPlaying = true,loop = -1}
+Animation = {sprites={},frames={},currentFrame = 0, spriteIndex=1,x = 0, y = 0,isPlaying = true,loop = -1, loopCount = 0}
 ```
 
 ## Methods
