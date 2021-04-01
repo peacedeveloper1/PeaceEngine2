@@ -8,15 +8,15 @@ numOfMovements = 4
 heroSprites = {}
 heroMovements = {}
 currentMovement = 1
-actionList = {"moveDown","moveLeft","moveRight","moveUp"}
-hero = Actor:new()
+actionList = {"moveDown","moveLeft","moveUp","moveRight"}
+hero = Actor:new({x=200-16,y=96-48/2})
 
 for j = 1, numOfMovements do 
   heroSprites[j] = {}
   for i=1, numOfActions do 
     heroSprites[j][i] = Sprite:new({tileHeight=48,height=48,tileWidth=32,width=32,x=(32*(i-1)),y=96,tileX=(32*(i-1)),tileY=(48*(j-1))})
   end 
-  heroMovements[j] = Animation:new({sprites = heroSprites[j],frames = {8,8,8,8},x=200-16,y=96-48/2})
+  heroMovements[j] = Animation:new({sprites = heroSprites[j],frames = {8,8,8,8}})
 end 
 
 hero.actions = {moveDown=heroMovements[1],moveLeft=heroMovements[2],moveRight=heroMovements[3],moveUp=heroMovements[4]}
