@@ -39,7 +39,9 @@ function updateHeroes()
 end 
 
 function isIdealMovement(joystick,keyboardStates)
-  return joystick.states[1] == 0 and not (keyboardStates[getScancodeFromName("D")] or keyboardStates[getScancodeFromName("S")] or keyboardStates[getScancodeFromName("E")] or keyboardStates[getScancodeFromName("F")])
+  isKeyboardIdealMovement = not (keyboardStates[getScancodeFromName("D")] or keyboardStates[getScancodeFromName("S")] or keyboardStates[getScancodeFromName("E")] or keyboardStates[getScancodeFromName("F")])
+  isJoystickIdealMovement = not (joystick:isUp() or joystick:isDown() or joystick:isLeft() or joystick:isRight())
+  return isJoystickIdealMovement and isKeyboardIdealMovement
 end 
 
 function peUpdate()
