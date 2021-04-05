@@ -82,15 +82,21 @@ function peUpdate()
     heroes[currentHero].y = heroes[currentHero].y -1 
     heroes[currentHero]:setAction("moveUp")
   end 
-  if joystick:isUp() or keyboardStates[getScancodeFromName("D")] then 
+  if joystick:isDown() or keyboardStates[getScancodeFromName("D")] then 
     heroes[currentHero].y = heroes[currentHero].y +1 
     heroes[currentHero]:setAction("moveDown")
+  end 
+  
+  if joystick.states[1] == 0 and not (keyboardStates[getScancodeFromName("D")] or keyboardStates[getScancodeFromName("S")] or keyboardStates[getScancodeFromName("E")] or keyboardStates[getScancodeFromName("F")]) then 
+    heroes[currentHero]:setAnimate(false,true)
+  else 
+    heroes[currentHero]:setAnimate(true)
   end 
 end 
 
 function peRender()
-  joystickOverlay:draw()
   heroes[currentHero]:draw()
+  joystickOverlay:draw()
 end 
 
 
