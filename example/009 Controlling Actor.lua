@@ -38,6 +38,10 @@ function updateHeroes()
   end 
 end 
 
+function isIdealMovement(joystick,keyboardStates)
+  return joystick.states[1] == 0 and not (keyboardStates[getScancodeFromName("D")] or keyboardStates[getScancodeFromName("S")] or keyboardStates[getScancodeFromName("E")] or keyboardStates[getScancodeFromName("F")])
+end 
+
 function peUpdate()
   joystick = Joystick:new({states=getJoystickStates(0)})
   JoystickOverlay:update(joystick)
@@ -87,7 +91,7 @@ function peUpdate()
     heroes[currentHero]:setAction("moveDown")
   end 
   
-  if joystick.states[1] == 0 and not (keyboardStates[getScancodeFromName("D")] or keyboardStates[getScancodeFromName("S")] or keyboardStates[getScancodeFromName("E")] or keyboardStates[getScancodeFromName("F")]) then 
+  if isIdealMovement(joystick,keyboardStates) then 
     heroes[currentHero]:setAnimate(false,true)
   else 
     heroes[currentHero]:setAnimate(true)
